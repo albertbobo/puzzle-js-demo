@@ -1,0 +1,38 @@
+.clear {
+    clear: both;
+}
+
+p {
+    font-size: 30px;
+    line-height: 50px;
+    background-color: #F0F0F0;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.source-box {
+    float: left;
+    width: 210px;
+    height: 210px;
+}
+
+.target-box-wrapper {
+    width: 400px;
+}
+
+#target-box1, #target-box2, #target-box3, #target-box4 {
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+
+#target-box1, #target-box2 {
+    background-color: #ffffa0;
+}
+
+#target-box3, #target-box4 {
+    background-color: #ffffc0;
+}

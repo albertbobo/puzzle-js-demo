@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>拼图</title>
+    <link rel="stylesheet" href="styles/puzzle.css">
+</head>
+<body>
+<!--原始图片-->
+<div>
+    <p>原始图片</p>
+    <img src="images/0.jpg" alt="">
+</div>
+
+<!--裁剪图片-->
+<div>
+    <p>裁剪图片</p>
+    <div>
+        <div class="source-box">
+            <img src="images/1.jpg" alt="" draggable="true" id="drag1" class="source-img"/>
+        </div>
+        <div class="source-box">
+            <img src="images/2.jpg" alt="" draggable="true" id="drag2" class="source-img"/>
+        </div>
+        <div class="source-box">
+            <img src="images/3.jpg" alt="" draggable="true" id="drag3" class="source-img"/>
+        </div>
+        <div class="source-box">
+            <img src="images/4.jpg" alt="" draggable="true" id="drag4" class="source-img"/>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+
+<!--拼图区域-->
+<div>
+    <p>拼图区域（请将上方裁切图片拖动到下面区域还原原始图片）</p>
+    <div class="target-box-wrapper">
+        <div id="target-box1" class="target-box"></div>
+        <div id="target-box3" class="target-box"></div>
+        <div id="target-box4" class="target-box"></div>
+        <div id="target-box2" class="target-box"></div>
+        <div class="clear"></div>
+    </div>
+</div>
+
+<script src="scripts/puzzle.js"></script>
+</body>
+</html>
